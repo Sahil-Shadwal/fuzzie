@@ -42,10 +42,10 @@ export default function Home() {
         direction="right"
         speed="slow"
       />
-      <section>
+      <section className="overflow-hidden">
         <HeroParallax products={products}></HeroParallax>
       </section>
-      <section className="mt-[-150px] pb-30 md:pb-20 ">
+      <section className="mt-[-150px] md:mt-[150px] pb-30 md:pb-20 ">
         <LampComponent />
         <div className="flex flex-wrap items-center justify-center flex-col md:flex-row gap-8 -mt-72 md:-mt-40 ">
           <CardContainer className="inter-var ">
